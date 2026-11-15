@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0b0d12" />
+  <meta name="description" content="Naufal's QA portfolio — manual testing, automation practice, and notes from projects I've worked on." />
+  <meta property="og:title" content="Naufal — QA Portfolio" />
+  <meta property="og:description" content="QA portfolio with hands-on testing work, automation practice, and project notes." />
+  <meta property="og:image" content="og-image.png" />
+  <meta property="og:type" content="website" />
+  <title>Naufal — Quality Assurance Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c6f36a'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Manrope,Arial,sans-serif' font-size='34' font-weight='800' fill='%2311150b'%3EN.%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to homepage">
+      <span class="brand-mark">N.</span><span>NAUFAL<span class="brand-dot">/</span>QA</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#artifacts">QA Artifacts</a>
+      <a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-wrap" id="home" aria-label="Introduction">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> Open to QA opportunities</div>
+        <p class="hero-kicker">Hi, I'm</p>
+        <h1>Naufal<span class="accent">.</span><br><span class="outline-text">Junior</span><br>Quality Assurance.</h1>
+        <p class="hero-description">I like digging into how products work, spotting what feels off, and helping teams ship things people can actually rely on.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">See my work <span>↘</span></a>
+          <a class="button button-ghost" href="#contact">Get in touch <span>↗</span></a>
+          <a class="button button-ghost" href="army_naufal_ghani_resume.pdf" download>Download CV <span>↓</span></a>
+        </div>
+        <div class="hero-meta">
+          <!-- <span>BASED IN INDONESIA</span> -->
+          <span class="meta-line"></span>
+          <span>MANUAL &amp; AUTOMATION TESTING</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-grid"></div>
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="visual-card">
+          <div class="card-top">
+            <span>QA_PROFILE.exe</span>
+            <span class="live-label">● ACTIVE</span>
+          </div>
+          <div class="avatar-placeholder">
+            <div class="avatar-frame">
+              <img src="foto-hitam-putih.jpeg" alt="Foto Naufal" class="avatar-photo">
+            </div>
+            <i>✳</i>
+          </div>
+          <div class="visual-name">Army Naufal Ghani</div>
+          <div class="visual-role">JUNIOR QUALITY ASSURANCE</div>
+          <div class="terminal-line">
+            <span>&gt;</span> checking user experience<span class="cursor">_</span>
+          </div>
+          <div class="card-bottom">
+            <span>DETAIL-ORIENTED</span>
+            <span>BUILD 2026.11</span>
+          </div>
+        </div>
+        <div class="float-tag tag-top">Bug finder <span>↗</span></div>
+        <div class="float-tag tag-bottom"><span class="tag-icon">✓</span> QA Enthusiast</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of focus">
+      <div class="ticker-track">
+        <div class="ticker-group">
+          <span>MANUAL TESTING</span><b>✳</b>
+          <span>API TESTING</span><b>✳</b>
+          <span>WEB TESTING</span><b>✳</b>
+          <span>MOBILE TESTING</span><b>✳</b>
+          <span>BUG REPORTING</span><b>✳</b>
+          <span>TEST CASE DESIGN</span><b>✳</b>
+          <span>SELENIUM & MOCHA</span><b>✳</b>
+        </div>
+
+        <div class="ticker-group" aria-hidden="true">
+          <span>MANUAL TESTING</span><b>✳</b>
+          <span>API TESTING</span><b>✳</b>
+          <span>WEB TESTING</span><b>✳</b>
+          <span>MOBILE TESTING</span><b>✳</b>
+          <span>BUG REPORTING</span><b>✳</b>
+          <span>TEST CASE DESIGN</span><b>✳</b>
+          <span>SELENIUM & MOCHA</span><b>✳</b>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-heading">
+        <p class="section-index">01 / ABOUT</p>
+        <h2>A bit curious,<br><span class="muted">pretty thorough.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">I’m getting into Quality Assurance, with hands-on experience in manual testing and a growing interest in automation.</p>
+        <div class="about-body">
+          <p>I like paying attention to the small stuff, walking through user flows end to end, and seeing how things behave outside the happy path. For me it’s not just “does it work?” but “where might this trip someone up?”</p>
+          <p>I’m studying Information Systems right now and picking up more QA experience through projects, courses, and practice.</p>
+          <div class="about-facts">
+            <div><strong>2025</strong><span>QA internship</span></div>
+            <div><strong>2026</strong><span>Information Systems</span></div>
+            <div><strong>+</strong><span>Still learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="skills">
+      <div class="section-heading">
+        <p class="section-index">02 / TOOLKIT</p>
+        <h2>Tools &amp; <span class="muted">skills.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <div class="skill-icon">⌕</div>
+          <h3>Manual Testing</h3>
+          <p>I enjoy exploring applications, checking how features behave, and make sure each step of a user journey works as expected.</p>
+          <div class="skill-tags">
+            <span>Test cases</span>
+            <span>Bug reports</span>
+            <span>Regression</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">02</span>
+          <div class="skill-icon">⌘</div>
+          <h3>API Testing</h3>
+          <p>Testing endpoints in Postman, checking responses, status codes, and making sure data behaves as expected.</p>
+          <div class="skill-tags">
+            <span>Postman</span>
+            <span>REST API</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <div class="skill-icon">▣</div>
+          <h3>Automation</h3>
+          <p>I'm currently learning test automation, experimenting with tools like Selenium and Mocha to make repetitive testing easier and more consistent.</p>
+          <div class="skill-tags">
+            <span>Selenium</span>
+            <span>Cypress</span>
+            <span>Appium</span>
+            <span>JMeter</span>
+            <span>K6</span>
+            <span>Katalon</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">04</span>
+          <div class="skill-icon">{ }</div>
+          <h3>Technical</h3>
+          <p>Enough HTML/CSS, JavaScript, and Git to understand what I’m testing and work smoothly with devs.</p>
+          <div class="skill-tags">
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+            <span>PHP</span>
+            <span>Java</span>
+            <span>SQL</span>
+            <span>Git</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="experience">
+      <div class="section-heading">
+        <p class="section-index">03 / EXPERIENCE</p>
+        <h2>Where I’ve <span class="muted">been learning.</span></h2>
+      </div>
+
+      <article class="experience-card education-card">
+        <div class="experience-date">2023 — 2026</div>
+        <div class="experience-main">
+          <p class="eyebrow">EDUCATION</p>
+          <h3>Software Engineering</h3>
+          <h4>SMK Muhammadiyah 1 Muntilan</h4>
+          <p>
+            Studied Software Engineering (RPL), learning web development, databases, and the basics of software testing — which is what got me into QA.
+          </p>
+          <div class="skill-tags">
+            <span>PHP</span>
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+            <span>Web development</span>
+            <span>Databases</span>
+            <span>SQL</span>
+            <span>Manual QA</span>
+            <span>Automation basics</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <div class="experience-date">JUN — NOV 2025</div>
+        <div class="experience-main">
+          <p class="eyebrow">INTERNSHIP</p>
+          <h3>Quality Assurance Intern</h3>
+          <h4>PT Wesclic Indonesia Neotech</h4>
+          <p>
+            Tested web and mobile apps, went through user flows, logged bugs clearly, and worked with the team to get issues sorted out.
+          </p>
+          <div class="skill-tags">
+            <span>Manual testing</span>
+            <span>Bug reporting</span>
+            <span>Web testing</span>
+            <span>Mobile testing</span>
+            <span>Test cases</span>
+            <span>Regression</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="experience-card">
+        <div class="experience-date">JAN — FEB 2026</div>
+        <div class="experience-main">
+          <p class="eyebrow">BOOTCAMP</p>
+          <h3>Mini Bootcamp QA Engineer</h3>
+          <h4>Digital Skola</h4>
+          <p>
+            Practiced test planning, bug reporting, API testing, JavaScript basics, and browser automation workflows.
+          </p>
+          <div class="skill-tags">
+            <span>Test planning</span>
+            <span>Bug reporting</span>
+            <span>API testing</span>
+            <span>Automation</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="experience-card education-card">
+        <div class="experience-date">2026 — PRESENT</div>
+        <div class="experience-main">
+          <p class="eyebrow">EDUCATION</p>
+          <h3>Information Systems</h3>
+          <h4>Universitas Teknologi Yogyakarta</h4>
+          <p>
+            Studying how information systems and business processes fit together, while keeping QA as the path I want to grow in.
+          </p>
+          <div class="skill-tags">
+            <span>Information systems</span>
+            <span>Business processes</span>
+            <span>Java</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-section section-wrap" id="projects">
+      <div class="section-heading">
+        <p class="section-index">04 / SELECTED WORK</p>
+        <h2>Things I’ve <span class="muted">worked on.</span></h2>
+        <p class="section-subtitle">A mix of products I’ve tested, built, or practiced on. Some have live links, others are practice work I’m happy to talk through.</p>
+      </div>
+      <div class="project-group">
+        <p class="project-group-title">Live projects <span>links available</span></p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <a class="project-visual-link" href="https://sumu.or.id/flagship-programs/sumu-pro/" target="_blank" rel="noopener noreferrer" aria-label="Visit SUMU Pro">
+              <div class="project-visual visual-orange">
+                <span class="project-label">WEB &amp; MOBILE</span>
+                <span class="project-symbol">01</span>
+                <div class="mock-phone">
+                  <div></div><i></i><i></i><i></i>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">WEB &amp; MOBILE TESTING</p>
+                <h3>SUMU Pro</h3>
+              </div>
+              <a class="project-link" href="https://sumu.or.id/flagship-programs/sumu-pro/" target="_blank" rel="noopener noreferrer" aria-label="Visit SUMU Pro">↗</a>
+              <p>Tested key flows on web and mobile, including checking the Midtrans payment process to make sure it behaved as expected.</p>
+              <div class="skill-tags">
+                <span>Manual testing</span>
+                <span>Web &amp; mobile</span>
+                <span>Payment flow</span>
+                <span>Midtrans</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual-link" href="https://wesclic.com/id/product/webklik" target="_blank" rel="noopener noreferrer" aria-label="Visit Webklik">
+              <div class="project-visual visual-green">
+                <span class="project-label">WEB PLATFORM</span>
+                <span class="project-symbol">02</span>
+                <div class="mock-browser">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">WEB TESTING</p>
+                <h3>Webklik</h3>
+              </div>
+              <a class="project-link" href="https://wesclic.com/id/product/webklik" target="_blank" rel="noopener noreferrer" aria-label="Visit Webklik">↗</a>
+              <p>Checked page behavior and common interactions to catch UI issues and odd edge cases.</p>
+              <div class="skill-tags">
+                <span>Manual testing</span>
+                <span>Automation Testing</span>
+                <span>UI checks</span>
+                <span>Regression Testing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual-link" href="https://globy-pms.replit.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Globy PMS &amp; Globy LMS">
+              <div class="project-visual visual-purple">
+                <span class="project-label">WEB APPLICATION</span>
+                <span class="project-symbol">03</span>
+                <div class="mock-window">
+                  <div class="mock-dots">● ● ●</div>
+                  <div class="mock-lines"><i></i><i></i><i></i></div>
+                  <div class="mock-chart"></div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">WEB TESTING</p>
+                <h3>Globy PMS &amp; Globy LMS</h3>
+              </div>
+              <a class="project-link" href="https://globy-pms.replit.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit Globy PMS &amp; Globy LMS">↗</a>
+              <p>Walked through flows from both user and coach sides, noting anything confusing or broken along the way.</p>
+              <div class="skill-tags">
+                <span>Manual testing</span>
+                <span>UI Checks</span>
+                <span>Regression Testing</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual-link" href="https://zendo.co.id/" target="_blank" rel="noopener noreferrer" aria-label="Visit Zendo">
+              <div class="project-visual visual-red">
+                <span class="project-label">WEB APPLICATION</span>
+                <span class="project-symbol">04</span>
+                <div class="mock-browser">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">WEB &amp; MOBILE TESTING</p>
+                <h3>Zendo</h3>
+              </div>
+              <a class="project-link" href="https://zendo.co.id/" target="_blank" rel="noopener noreferrer" aria-label="Visit Zendo">↗</a>
+              <p>Went through Zendo’s main features and flows, checking that things worked properly, looked consistent, and felt smooth to use on web and mobile.</p>
+              <div class="skill-tags">
+                <span>Manual testing</span>
+                <span>Functional testing</span>
+                <span>UI consistency</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual-link" href="https://dimsum-pasta-pizza-blabak.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit UMKM Rumah">
+              <div class="project-visual visual-teal">
+                <span class="project-label">WEB PLATFORM</span>
+                <span class="project-symbol">05</span>
+                <div class="mock-phone mock-phone-umkm">
+                  <div></div>
+                  <div class="mock-grid"><i></i><i></i><i></i><i></i></div>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">WEB DEVELOPMENT &amp; TESTING</p>
+                <h3>Dimsum Pasta Pizza Blabak</h3>
+              </div>
+              <a class="project-link" href="https://dimsum-pasta-pizza-blabak.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visit UMKM Rumah">↗</a>
+              <p>Built and tested a small site for a local food business — checking menus, ordering flow, and how it looked on different screen sizes.</p>
+              <div class="skill-tags">
+                <span>Web development</span>
+                <span>Manual testing</span>
+                <span>Responsive checks</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual-link" href="https://sauce-demo.myshopify.com/" target="_blank" rel="noopener noreferrer" aria-label="View SauceDemo automation repository">
+              <div class="project-visual visual-blue">
+                <span class="project-label">TEST AUTOMATION</span>
+                <span class="project-symbol">06</span>
+                <div class="code-art">
+                  <span>if</span> (quality) {<br>&nbsp; ship_it();<br>}
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">AUTOMATION PRACTICE</p>
+                <h3>SauceDemo</h3>
+              </div>
+              <a class="project-link" href="https://sauce-demo.myshopify.com/" target="_blank" rel="noopener noreferrer" aria-label="View SauceDemo automation repository">↗</a>
+              <p>Wrote browser automation scripts for SauceDemo with Selenium and Mocha, and used Mochawesome reports plus visual checks to review results.</p>
+              <div class="skill-tags">
+                <span>Automation Testing</span>
+                <span>DDT</span>
+                <span>Visual checks</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <a class="project-visual-link" href="https://play.google.com/store/apps/details?id=com.umrona.app&hl=id" target="_blank" rel="noopener noreferrer" aria-label="Visit MSA App">
+              <div class="project-visual visual-purple">
+                <span class="project-label">MOBILE APP</span>
+                <span class="project-symbol">07</span>
+                <div class="mock-phone">
+                  <div></div><i></i><i></i><i></i>
+                </div>
+              </div>
+            </a>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">MOBILE TESTING</p>
+                <h3>MSA (Muslim Super App)</h3>
+              </div>
+              <a class="project-link" href="https://play.google.com/store/apps/details?id=com.umrona.app&hl=id" target="_blank" rel="noopener noreferrer" aria-label="Visit MSA App">↗</a>
+              <p>Tested features and user flows on the Muslim Super App, checking daily-use modules like prayer times, content, and navigation to keep the experience clear and reliable.</p>
+              <div class="skill-tags">
+                <span>Mobile testing</span>
+                <span>Manual testing</span>
+                <span>Functional testing</span>
+                <span>UI checks</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="project-group">
+        <p class="project-group-title">Practice work <span>no public link yet</span></p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-cyan">
+              <span class="project-label">WEB APPLICATION</span>
+              <span class="project-symbol">08</span>
+              <div class="mock-window mock-window-parkir">
+                <div class="mock-dots">● ● ●</div>
+                <div class="mock-grid"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="eyebrow">WEB DEVELOPMENT &amp; TESTING</p>
+                <h3>Parking System</h3>
+              </div>
+              <p>Tested the main parking flow end to end — vehicle entry, parking management, and the admin/attendant panel.</p>
+              <p class="project-note">School exam final project.</p>
+              <div class="skill-tags">
+                <span>Web development</span>
+                <span>Manual testing</span>
+                <span>End-to-end</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <p class="projects-note">Happy to share more details about any of these if you’d like.</p>
+    </section>
+
+    <section class="content-section section-wrap" id="certificates">
+      <div class="section-heading">
+        <p class="section-index">05 / CERTIFICATES</p>
+        <h2>Certificates <span class="muted">&amp; recognition.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <div class="skill-icon">★</div>
+          <h3>PT Wesclic Indonesia Neotech</h3>
+          <p>Internship completion &amp; performance assessment</p>
+          <div class="skill-tags">
+            <span>Internship certificate</span>
+            <span>Performance review</span>
+          </div>
+          <div class="card-actions">
+            <a href="sertifikat-wesclic.jpg" target="_blank" rel="noopener noreferrer" class="button button-ghost button-small">
+              Certificate <span>↗</span>
+            </a>
+            <a href="penilaian-wesclic.pdf" target="_blank" rel="noopener noreferrer" class="button button-ghost button-small">
+              Assessment <span>↗</span>
+            </a>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <div class="skill-icon">★</div>
+          <h3>Digital Skola</h3>
+          <p>Mini Bootcamp — QA Engineer</p>
+          <div class="skill-tags">
+            <span>Bootcamp certificate</span>
+          </div>
+          <div class="card-actions">
+            <a href="sertifikat-digital-skola.png" target="_blank" rel="noopener noreferrer" class="button button-ghost button-small button-full">
+              View certificate <span>↗</span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="artifacts">
+      <div class="section-heading">
+        <p class="section-index">06 / QA ARTIFACTS</p>
+        <h2>Test cases <span class="muted">&amp; bug reports.</span></h2>
+        <p class="section-subtitle">A place where I keep sample test cases, bug reports, and notes from projects I’ve worked on.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="button button-primary" href="qa-artifacts.html">View QA artifacts <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <p class="section-index">07 / CONTACT</p>
+      <p class="eyebrow">Want to work together?</p>
+      <h2>Let’s connect<br>with <span class="accent">me.</span></h2>
+      <p class="contact-copy">I’m open to QA roles, collabs, or just a chat about testing and building better products.</p>
+      <div class="contact-actions">
+        <a class="button button-primary" href="mailto:fafalghani12@gmail.com">Email me <span>↗</span></a>
+        <a class="button button-ghost" href="army_naufal_ghani_resume.pdf" download>Download CV <span>↓</span></a>
+        <a class="button button-ghost" href="https://www.linkedin.com/in/army-naufal-ghani-95ab95381/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+        <a class="button button-ghost" href="https://github.com/Woiiipall" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a>
+        <a class="button button-ghost" href="https://wa.me/62882006932856" target="_blank" rel="noopener noreferrer">WhatsApp <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-wrap">
+    <a class="brand" href="#home">
+      <span class="brand-mark">N.</span><span>NAUFAL<span class="brand-dot">/</span>QA</span>
+    </a>
+    <span>· Made with care ·</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
+
